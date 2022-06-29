@@ -1,0 +1,107 @@
+/*General*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Session message*/
+
+.print-msg{
+    text-align: center;
+    margin: 10px auto 5px;
+    background-color: #48bfe3;
+    border-radius: 10px;
+    padding: 5px;
+    width: 20%;
+    font-weight: bold; 
+}
+
+
+/*Header*/
+
+header{
+    position: relative;
+    background-color: #6c757d;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+
+#redirect-list{
+    display: flex;
+    list-style: none;
+}
+
+#redirect-list li{
+    padding-right: 35px;
+}
+
+#redirect-list li a{
+    font-size: 18px;
+    color: #1b263b;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: #48bfe3;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+#redirect-list li a:hover{
+    color: #48bfe3;
+    background-color: #1b263b;
+}
+
+/*Home*/
+
+#content-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.btn-home{
+    margin-bottom: 6px;
+}
+
+/*Add collaborator*/
+
+#create-container,
+#update-container{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.page-title{
+    font-size: 26px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+#create-form input,
+#create-form select,{
+    margin-bottom: 10px;
+}
+
+#create-form input[type="submit"]{
+   margin-left: 150px;
+}
+
+/*Edit collaborator*/
+
+#update-form input[type="submit"]{
+    margin-left: 150px;
+    margin-top: 15px;
+}
