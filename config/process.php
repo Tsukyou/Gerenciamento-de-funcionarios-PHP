@@ -53,6 +53,7 @@
                 $error = $e->getMessage();
                 echo "Erro: $error";
             }
+            
         }else if($data["type"] === "update"){
             $id = $data["id"];
             $name = $data["name"];

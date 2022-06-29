@@ -16,7 +16,7 @@
             </div>
             <div class="form-group">
                 <label for="age">Idade:</label>
-                <input class="form-control" type="text" name="age" id="age" placeholder="Insira a idade">
+                <input class="form-control" type="text" name="age" id="age" placeholder="Insira a idade" value="<?= $collaborator["age"]?>">
             </div>
             <div class="form-group">
                 <label for="sector">Setor:</label>
